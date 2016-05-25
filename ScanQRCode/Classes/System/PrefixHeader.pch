@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  ScanQRCode
+//
+//  Created by xiaopin on 16/5/13.
+//
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "PCConstant.h"
+#import "PCFunctions.h"
+
+// 通过RGB获取颜色
+#define ColorWithRGB(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+// App全局背景色
+#define kGlobalBackgroundColor ColorWithRGB(246.0, 246.0, 246.0)
+
+#endif /* PrefixHeader_pch */
