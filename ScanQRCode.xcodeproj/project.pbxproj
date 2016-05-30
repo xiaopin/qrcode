@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12E58E1C1CFBCC8500721576 /* PCCreateQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E58E1B1CFBCC8500721576 /* PCCreateQRCodeViewController.m */; };
+		12E58E1F1CFBEA2200721576 /* PCQRcodeResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E58E1E1CFBEA2200721576 /* PCQRcodeResultView.m */; };
 		B21AA88D1CE4CF3F002D32BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B21AA88B1CE4CF3F002D32BF /* Main.storyboard */; };
 		B21AA88F1CE4CF3F002D32BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B21AA88E1CE4CF3F002D32BF /* Assets.xcassets */; };
 		B21AA8921CE4CF3F002D32BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B21AA8901CE4CF3F002D32BF /* LaunchScreen.storyboard */; };
@@ -50,6 +52,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12E58E1A1CFBCC8500721576 /* PCCreateQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCreateQRCodeViewController.h; sourceTree = "<group>"; };
+		12E58E1B1CFBCC8500721576 /* PCCreateQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCreateQRCodeViewController.m; sourceTree = "<group>"; };
+		12E58E1D1CFBEA2200721576 /* PCQRcodeResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCQRcodeResultView.h; sourceTree = "<group>"; };
+		12E58E1E1CFBEA2200721576 /* PCQRcodeResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCQRcodeResultView.m; sourceTree = "<group>"; };
 		B21AA87F1CE4CF3B002D32BF /* ScanQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21AA88C1CE4CF3F002D32BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B21AA88E1CE4CF3F002D32BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,6 +123,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12E58E171CFBCBA200721576 /* CreateQRcode */ = {
+			isa = PBXGroup;
+			children = (
+				12E58E181CFBCBA200721576 /* Controller */,
+				12E58E191CFBCBA200721576 /* View */,
+			);
+			path = CreateQRcode;
+			sourceTree = "<group>";
+		};
+		12E58E181CFBCBA200721576 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12E58E1A1CFBCC8500721576 /* PCCreateQRCodeViewController.h */,
+				12E58E1B1CFBCC8500721576 /* PCCreateQRCodeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		12E58E191CFBCBA200721576 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12E58E1D1CFBEA2200721576 /* PCQRcodeResultView.h */,
+				12E58E1E1CFBEA2200721576 /* PCQRcodeResultView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B21AA8761CE4CF3B002D32BF = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				B2FEB30E1CE6B71C00A54369 /* Commons */,
+				12E58E171CFBCBA200721576 /* CreateQRcode */,
 				B2FCAA6B1CE5CF17001C759D /* Home */,
 				B2FEB3151CE6D16E00A54369 /* ScanResult */,
 				B2FCAA6E1CE5CF17001C759D /* System */,
@@ -437,10 +471,12 @@
 				B2FCAA731CE5CF17001C759D /* AppDelegate.m in Sources */,
 				B2FEB3251CE6E46A00A54369 /* PCScanResultOperation.m in Sources */,
 				B2FCAA7B1CE5D02A001C759D /* PCHomeViewController.m in Sources */,
+				12E58E1C1CFBCC8500721576 /* PCCreateQRCodeViewController.m in Sources */,
 				B2F03BE41CE6076E00D870B4 /* PCReaderMaskView.m in Sources */,
 				B2FEB3111CE6B74B00A54369 /* PCConstant.m in Sources */,
 				B2FEB33B1CE7522F00A54369 /* PCScanOperationBar.m in Sources */,
 				B2FCAA751CE5CF17001C759D /* main.m in Sources */,
+				12E58E1F1CFBEA2200721576 /* PCQRcodeResultView.m in Sources */,
 				B2FEB31A1CE6D18C00A54369 /* PCScanResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,9 +7,10 @@
 //
 
 #import "PCHomeViewController.h"
+#import "PCCreateQRCodeViewController.h"
+#import "PCScanResultViewController.h"
 #import "PCReaderMaskView.h"
 #import <AVFoundation/AVFoundation.h>
-#import "PCScanResultViewController.h"
 #import "PCScanOperationBar.h"
 
 @interface PCHomeViewController ()
@@ -110,7 +111,19 @@ UIImagePickerControllerDelegate>
     [_captureSession addOutput:output];
     // 设置扫描类型
     NSArray *objectTypes = @[
-                             AVMetadataObjectTypeQRCode
+                             AVMetadataObjectTypeUPCECode,
+                             AVMetadataObjectTypeCode39Code,
+                             AVMetadataObjectTypeCode39Mod43Code,
+                             AVMetadataObjectTypeEAN13Code,
+                             AVMetadataObjectTypeEAN8Code,
+                             AVMetadataObjectTypeCode93Code,
+                             AVMetadataObjectTypeCode128Code,
+                             AVMetadataObjectTypePDF417Code,
+                             AVMetadataObjectTypeQRCode,
+                             AVMetadataObjectTypeAztecCode,
+                             AVMetadataObjectTypeInterleaved2of5Code,
+                             AVMetadataObjectTypeITF14Code,
+                             AVMetadataObjectTypeDataMatrixCode
                              ];
     [output setMetadataObjectsDelegate:self queue:dispatch_get_main_queue()];
     [output setMetadataObjectTypes:objectTypes];
@@ -207,8 +220,12 @@ UIImagePickerControllerDelegate>
 }
 
 - (void)scanOperationBar:(PCScanOperationBar *)operationBar moreButtonDidClicked:(UIButton *)button {
-    // TODO:更多操作
-    alertMessage(nil, @"暂无更多操作", nil);
+    __weak __typeof(self) weakSelf = self;
+    UIAlertAction *createQRcodeAction = [UIAlertAction actionWithTitle:@"生成二维码" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        PCCreateQRCodeViewController *vc = (PCCreateQRCodeViewController *)loadViewControllerFromStoryboard(nil, @"PCCreateQRCodeViewController");
+        [weakSelf.navigationController pushViewController:vc animated:YES];
+    }];
+    alertMessageSheet(nil, nil, @[createQRcodeAction]);
 }
 
 @end
