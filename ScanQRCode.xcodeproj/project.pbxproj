@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		12E58E1C1CFBCC8500721576 /* PCCreateQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E58E1B1CFBCC8500721576 /* PCCreateQRCodeViewController.m */; };
 		12E58E1F1CFBEA2200721576 /* PCQRcodeResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E58E1E1CFBEA2200721576 /* PCQRcodeResultView.m */; };
+		12E58E221CFC22E000721576 /* UINavigationController+PC.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E58E211CFC22E000721576 /* UINavigationController+PC.m */; };
+		12E58E281CFC289B00721576 /* UIViewController+StatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E58E271CFC289B00721576 /* UIViewController+StatusBar.m */; };
+		12E58E301CFC2C3A00721576 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E58E2A1CFC2C3A00721576 /* back@2x.png */; };
+		12E58E311CFC2C3A00721576 /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E58E2B1CFC2C3A00721576 /* back@3x.png */; };
+		12E58E321CFC2C3A00721576 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E58E2C1CFC2C3A00721576 /* menu@2x.png */; };
+		12E58E331CFC2C3A00721576 /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E58E2D1CFC2C3A00721576 /* menu@3x.png */; };
+		12E58E341CFC2C3A00721576 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E58E2E1CFC2C3A00721576 /* search@2x.png */; };
+		12E58E351CFC2C3A00721576 /* search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12E58E2F1CFC2C3A00721576 /* search@3x.png */; };
 		B21AA88D1CE4CF3F002D32BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B21AA88B1CE4CF3F002D32BF /* Main.storyboard */; };
 		B21AA88F1CE4CF3F002D32BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B21AA88E1CE4CF3F002D32BF /* Assets.xcassets */; };
 		B21AA8921CE4CF3F002D32BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B21AA8901CE4CF3F002D32BF /* LaunchScreen.storyboard */; };
@@ -56,6 +64,16 @@
 		12E58E1B1CFBCC8500721576 /* PCCreateQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCreateQRCodeViewController.m; sourceTree = "<group>"; };
 		12E58E1D1CFBEA2200721576 /* PCQRcodeResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCQRcodeResultView.h; sourceTree = "<group>"; };
 		12E58E1E1CFBEA2200721576 /* PCQRcodeResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCQRcodeResultView.m; sourceTree = "<group>"; };
+		12E58E201CFC22E000721576 /* UINavigationController+PC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+PC.h"; sourceTree = "<group>"; };
+		12E58E211CFC22E000721576 /* UINavigationController+PC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+PC.m"; sourceTree = "<group>"; };
+		12E58E261CFC289B00721576 /* UIViewController+StatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+StatusBar.h"; sourceTree = "<group>"; };
+		12E58E271CFC289B00721576 /* UIViewController+StatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+StatusBar.m"; sourceTree = "<group>"; };
+		12E58E2A1CFC2C3A00721576 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		12E58E2B1CFC2C3A00721576 /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		12E58E2C1CFC2C3A00721576 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		12E58E2D1CFC2C3A00721576 /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@3x.png"; sourceTree = "<group>"; };
+		12E58E2E1CFC2C3A00721576 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		12E58E2F1CFC2C3A00721576 /* search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@3x.png"; sourceTree = "<group>"; };
 		B21AA87F1CE4CF3B002D32BF /* ScanQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21AA88C1CE4CF3F002D32BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B21AA88E1CE4CF3F002D32BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -150,6 +168,19 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		12E58E291CFC2C3A00721576 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				12E58E2A1CFC2C3A00721576 /* back@2x.png */,
+				12E58E2B1CFC2C3A00721576 /* back@3x.png */,
+				12E58E2C1CFC2C3A00721576 /* menu@2x.png */,
+				12E58E2D1CFC2C3A00721576 /* menu@3x.png */,
+				12E58E2E1CFC2C3A00721576 /* search@2x.png */,
+				12E58E2F1CFC2C3A00721576 /* search@3x.png */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		B21AA8761CE4CF3B002D32BF = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +231,7 @@
 		B2F03BE61CE6083B00D870B4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				12E58E291CFC2C3A00721576 /* Navigation */,
 				B2F03BE71CE6083B00D870B4 /* QRCode */,
 				B2FEB33C1CE754BD00A54369 /* ScanOperation */,
 				B2FEB32C1CE6FDBE00A54369 /* ScanResult */,
@@ -336,6 +368,10 @@
 			children = (
 				B2FEB3291CE6F99D00A54369 /* NSString+PC.h */,
 				B2FEB32A1CE6F99D00A54369 /* NSString+PC.m */,
+				12E58E201CFC22E000721576 /* UINavigationController+PC.h */,
+				12E58E211CFC22E000721576 /* UINavigationController+PC.m */,
+				12E58E261CFC289B00721576 /* UIViewController+StatusBar.h */,
+				12E58E271CFC289B00721576 /* UIViewController+StatusBar.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -429,15 +465,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2FEB34A1CE754BD00A54369 /* scan_operation_more@3x.png in Resources */,
+				12E58E321CFC2C3A00721576 /* menu@2x.png in Resources */,
 				B21AA8921CE4CF3F002D32BF /* LaunchScreen.storyboard in Resources */,
 				B2F03BF51CE6083B00D870B4 /* QRCodeBottomRight@3x.png in Resources */,
 				B21AA88F1CE4CF3F002D32BF /* Assets.xcassets in Resources */,
 				B2F03BFB1CE6083B00D870B4 /* QRCodeTopRight@3x.png in Resources */,
 				B2FEB3371CE7142C00A54369 /* scan_result_sms@2x.png in Resources */,
 				B2FEB3341CE70C5E00A54369 /* scan_result_mail@3x.png in Resources */,
+				12E58E301CFC2C3A00721576 /* back@2x.png in Resources */,
 				B2FEB3491CE754BD00A54369 /* scan_operation_more@2x.png in Resources */,
 				B2F03BF21CE6083B00D870B4 /* QRCodeBottomLeft@2x.png in Resources */,
 				B2F03BF61CE6083B00D870B4 /* QRCodeLine@2x.png in Resources */,
+				12E58E341CFC2C3A00721576 /* search@2x.png in Resources */,
 				B2FEB34B1CE754BD00A54369 /* scan_operation_more_highlighted@2x.png in Resources */,
 				B2FEB34E1CE754BD00A54369 /* scan_operation_photo_highlighted@2x.png in Resources */,
 				B2FEB3481CE754BD00A54369 /* scan_operation_flash_on_highlighted@2x.png in Resources */,
@@ -447,14 +486,17 @@
 				B2F03BF41CE6083B00D870B4 /* QRCodeBottomRight@2x.png in Resources */,
 				B2F03BF71CE6083B00D870B4 /* QRCodeLine@3x.png in Resources */,
 				B21AA88D1CE4CF3F002D32BF /* Main.storyboard in Resources */,
+				12E58E311CFC2C3A00721576 /* back@3x.png in Resources */,
 				B2F03BFA1CE6083B00D870B4 /* QRCodeTopRight@2x.png in Resources */,
 				B2F03BF91CE6083B00D870B4 /* QRCodeTopLeft@3x.png in Resources */,
+				12E58E351CFC2C3A00721576 /* search@3x.png in Resources */,
 				B2F03BF81CE6083B00D870B4 /* QRCodeTopLeft@2x.png in Resources */,
 				B2FEB3331CE70C5E00A54369 /* scan_result_mail@2x.png in Resources */,
 				B2FEB3471CE754BD00A54369 /* scan_operation_flash_on@2x.png in Resources */,
 				B2FEB34C1CE754BD00A54369 /* scan_operation_more_highlighted@3x.png in Resources */,
 				B2FEB32F1CE6FDBE00A54369 /* scan_result_search@2x.png in Resources */,
 				B2FEB34D1CE754BD00A54369 /* scan_operation_photo@2x.png in Resources */,
+				12E58E331CFC2C3A00721576 /* menu@3x.png in Resources */,
 				B2FEB3301CE6FDBE00A54369 /* scan_result_search@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,11 +512,13 @@
 				B2FEB32B1CE6F99D00A54369 /* NSString+PC.m in Sources */,
 				B2FCAA731CE5CF17001C759D /* AppDelegate.m in Sources */,
 				B2FEB3251CE6E46A00A54369 /* PCScanResultOperation.m in Sources */,
+				12E58E281CFC289B00721576 /* UIViewController+StatusBar.m in Sources */,
 				B2FCAA7B1CE5D02A001C759D /* PCHomeViewController.m in Sources */,
 				12E58E1C1CFBCC8500721576 /* PCCreateQRCodeViewController.m in Sources */,
 				B2F03BE41CE6076E00D870B4 /* PCReaderMaskView.m in Sources */,
 				B2FEB3111CE6B74B00A54369 /* PCConstant.m in Sources */,
 				B2FEB33B1CE7522F00A54369 /* PCScanOperationBar.m in Sources */,
+				12E58E221CFC22E000721576 /* UINavigationController+PC.m in Sources */,
 				B2FCAA751CE5CF17001C759D /* main.m in Sources */,
 				12E58E1F1CFBEA2200721576 /* PCQRcodeResultView.m in Sources */,
 				B2FEB31A1CE6D18C00A54369 /* PCScanResultViewController.m in Sources */,
