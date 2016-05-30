@@ -32,7 +32,7 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-    CGFloat padding = 10.0;
+    CGFloat padding = 20.0;
     CGFloat width = MIN(_qrImageView.image.size.width, CGRectGetWidth(self.frame) - padding * 2);
     CGFloat height = MIN(_qrImageView.image.size.height, CGRectGetHeight(self.frame) - padding * 2);
     _qrImageView.frame = CGRectMake((CGRectGetWidth(self.frame) - width) / 2,
