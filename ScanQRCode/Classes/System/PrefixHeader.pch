@@ -18,4 +18,11 @@
 // App全局背景色
 #define kGlobalBackgroundColor ColorWithRGB(246.0, 246.0, 246.0)
 
+// 日志打印
+#ifdef DEBUG
+# define DebugLog(fmt, ...) NSLog((@"\nFile:%s \nFunction:%s \nLine:%d \n" fmt), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+# define DebugLog(...)
+#endif
+
 #endif /* PrefixHeader_pch */
